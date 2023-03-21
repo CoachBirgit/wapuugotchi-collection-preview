@@ -1,0 +1,44 @@
+.wapuugotchi-collection-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection {
+    margin-bottom: 2rem;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.item h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.item p {
+    font-size: 0.875rem;
+    color: #777;
+    margin-bottom: 0;
+}
